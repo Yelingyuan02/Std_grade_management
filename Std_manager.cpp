@@ -154,11 +154,6 @@ int main()
 		DisplayMenu();
 		cout << "请输入选项序号：";
 		cin >> choice;
-		/*if (choice != 1 || choice != 2 || choice != 3 || choice != 4)
-		{
-			cout << "输入错误，请输入数字1-4" << endl;
-			continue;
-		}*/
 		switch (choice)
 		{
 		case 1:
@@ -173,8 +168,6 @@ int main()
 		case 4:
 			cout << "感谢使用学生成绩管理系统，再见！" << endl;
 			break;
-		default:
-			cout << "无效选项，请重新输入！" << endl;
 		}
 	} while (choice != 4);
 
